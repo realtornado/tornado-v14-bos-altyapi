@@ -1,12 +1,12 @@
 {
-  "name": "coddier-bot",
+  "name": "tornado-bot",
   "version": "1.0.0",
-  "description": "Coddier Bot's",
+  "description": "Tornado Bot's",
   "main": "src/index.js",
   "scripts": {
     "test": "src/index.js"
   },
-  "author": "goelisma",
+  "author": "tornado",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.11.2",
