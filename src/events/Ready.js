@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 module.exports = (client) => {
     client.on('ready', () => {
         setInterval(() => {
-            client.user.setActivity(`Goelisma V14 Slash & Prefix Boş Altyapı.`);
+            client.user.setActivity(`${process.env.READY}`);
         }, 5000);
         console.log(`Bot Durum Aktif.`);
     });
